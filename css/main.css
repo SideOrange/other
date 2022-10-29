@@ -1,0 +1,221 @@
+
+
+ul.simple-toggle {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:20px;
+
+}
+
+ul.simple-toggle li {
+	align-items:left;
+	display: inline-block;
+	text-align: left; 
+}
+
+ul.simple-toggle li a {
+	
+	padding: 15px 10px;
+	text-decoration: none;
+	color: white;
+	border:1px solid white;
+}
+
+ul.simple-toggle li a:hover {
+	background-color: #ccc;
+}
+
+.anchor-link {
+	display: none;
+	text-align: right;
+	padding: 0 1em 0;
+	text-align: center;
+	padding: 10px 15px;
+	color: white;
+	background-color: #486141;
+	text-decoration: none;
+	float: right;
+	width:35%;
+	z-index:1;
+	
+}
+
+#mobile-nav {
+	display:none; 
+}
+
+img{
+	width:30%;
+	float:left;
+	padding:20px;
+}
+
+.gone{
+	display:none;
+}
+
+header{
+	box-shadow: 0px 10px 20px 30px #486141;
+	background-color:#486141;
+	height:3vh;
+	margin-bottom:7vh;	
+}
+
+header h1{
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-size:6vh;
+	color:white;
+	font-family: 'Courier New',monospace;
+}
+
+body{
+	margin:0;
+	background-color:#1d261b;
+	min-height:100vh;
+}
+
+p{
+	padding:20px;
+	color:white;
+}
+
+
+footer{
+	position:absolute;
+	bottom:0;
+	background-color:white;
+	width:100%;
+}
+
+/*mobile*/
+@media screen and (max-width:600px){
+	.gone{
+		display:block;
+	}
+	
+	header h1{
+		margin-top:10px;
+		margin:0;
+		padding:0;
+		text-align:center;
+		font-size:6vh;
+		color:white;
+		font-family: 'Courier New',monospace;
+	}
+	
+	header{
+		
+		box-shadow: 0px 10px 20px 30px #486141;
+		background-color:#486141;
+		height:3vh;
+		margin-bottom:7vh;
+		
+	}
+	
+	footer{
+		position:absolute;
+		bottom:0;
+		background-color:white;
+		
+	}
+	
+	body{
+		min-width:320px;
+		position:relative;
+		margin:0;
+		background-color:#1d261b;
+	}
+	
+
+	
+	.box{
+		text-align:center;
+		box-sizing: border-box;
+		border:none;
+		margin:3vw;
+		margin-bottom:3px;
+		padding:2vw;
+		color:white;
+
+		border-radius:20px;
+	}
+	
+	.image{
+		padding:0;
+		width:94vw;
+	}
+	
+	.button{
+		font-size:100%;
+		margin:1vh 2vw;
+		padding:1vh 1vw;
+		background-color: #486141;
+		border-radius:10px;
+		
+	}
+	
+	div li a.button{
+		background-color:#2a76b0;
+	}
+
+	ul.simple-toggle {
+		display: none;
+		
+	}
+	
+	.anchor-link, #mobile-nav {
+		font-size:3vh;
+		display: block; 
+		position:fixed;
+		bottom:1%;
+		right:2%;
+	}
+
+	ul.open { 
+		display: block;
+		list-style: none outside none;
+		margin-bottom:0;
+		padding: 0;
+		position: fixed;
+		right:2%;
+		bottom: 1%;
+		width: 48%;
+		z-index: 500; 
+	}
+	
+	ul.open li { 
+		display: block;
+		list-style: none;
+		text-align: center;
+	
+	}
+	
+	ul.open li a {
+		color:white;
+		display: block;
+		padding-top:2vh;
+		padding-bottom:2vh;
+		text-decoration: none;
+	}
+	ul.open li a:hover {
+		color:white;
+		background-color:#0084B4;
+	}
+	
+	.position{
+		position:fixed;
+		bottom:1vh;
+		left:2vw;
+		width: 48vw;
+	}
+	
+
+}
+
+
+

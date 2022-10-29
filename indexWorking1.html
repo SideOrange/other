@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta name = "some data" content = "the data">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>The Main Page</title>
+    <link rel = "stylesheet" href="css/main.css">
+	<script>
+		function MyFunction() {
+			if (document.getElementById('menu').className == "simple-toggle open"){
+				document.getElementById('menu').className = "simple-toggle";
+			}
+			else{
+				document.getElementById("menu").className += " open";
+			}
+		}
+		
+
+		
+	</script>
+</head>
+
+
+
+
+
+<body>
+    <header id="header">
+        <h1>Main Page</h1>
+    </header>
+    <main>
+		<p id = "t">tester</p>
+
+		<nav>
+			<a id ="menu-toggle" class="anchor-link" onclick="MyFunction()">Menu</a>
+			<ul class= "simple-toggle" id="menu">
+				<li><a href="Page1.html">Page 1</a></li>
+				<li><a href="Page2.html">Page 2</a></li>
+				<li><a href="#footer">Footer</a></li>
+				<li><a onclick="MyFunction()">Menu</a></li>
+			</ul>
+
+
+		</nav>
+
+        
+
+		<p>start this is some information that whould wrap up nicely
+		into whatever the heck happens. This is more information to 
+		make it look like there is stuff so that i can responsively desing
+		a website or at least try to. This piece of text will help with that
+		because it has lots of content so it will help with how the thing
+		wraps or doesnt and will let me know if grid design is any good and
+		help me figure out how to do it so that i works when you swithc to 
+		phone.<p>
+
+    </main>
+    <footer id="footer">
+        <a href="#header">oh no-close-quote</a>
+    </footer>
+</body>
+</html>

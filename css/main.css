@@ -59,7 +59,7 @@ img{
 
 header{
 	box-shadow: 0px 10px 20px 30px #486141;
-	background-color:lightblue;
+	background-color:#486141;
 	height:3vh;
 	margin-bottom:7vh;	
 }
@@ -75,7 +75,7 @@ header h1{
 
 body{
 	margin:0;
-	background-color:blue;
+	background-color:#1d261b;
 	min-height:100vh;
 }
 
@@ -111,7 +111,7 @@ footer{
 	header{
 		
 		box-shadow: 0px 10px 20px 30px #486141;
-		background-color:lightblue;
+		background-color:#486141;
 		height:3vh;
 		margin-bottom:7vh;
 		
@@ -128,7 +128,7 @@ footer{
 		min-width:320px;
 		position:relative;
 		margin:0;
-		background-color:blue;
+		background-color:#1d261b;
 	}
 	
 
@@ -154,7 +154,7 @@ footer{
 		font-size:100%;
 		margin:1vh 2vw;
 		padding:1vh 1vw;
-		background-color: blue;
+		background-color: #486141;
 		border-radius:10px;
 		
 	}
